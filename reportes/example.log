@@ -1,0 +1,302 @@
+INFO 2023-07-26 18:42:51,731 LogginMiddleware 6631 139799213303360 /test/-500
+ERROR 2023-07-26 18:42:51,732 log 6631 139799213303360 Internal Server Error: /test/
+INFO 2023-07-26 18:43:00,331 autoreload 6631 139799254282240 /home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py changed, reloading.
+INFO 2023-07-26 18:43:00,738 autoreload 6719 140140083339264 Watching for file changes with StatReloader
+INFO 2023-07-26 18:43:01,849 LogginMiddleware 6719 140140042360384 /test/  500
+ERROR 2023-07-26 18:43:01,850 log 6719 140140042360384 Internal Server Error: /test/
+INFO 2023-07-26 18:43:30,096 autoreload 6719 140140083339264 /home/nelson/projects/dProjects/backends/reportes/reportes/config/urls.py changed, reloading.
+INFO 2023-07-26 18:43:30,424 autoreload 6781 140434802716672 Watching for file changes with StatReloader
+INFO 2023-07-26 18:43:33,215 LogginMiddleware 6781 140434693158464 /test/  200
+INFO 2023-07-26 18:43:47,743 autoreload 6781 140434802716672 /home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py changed, reloading.
+INFO 2023-07-26 18:43:48,060 autoreload 6842 140714455117824 Watching for file changes with StatReloader
+INFO 2023-07-26 18:43:54,299 autoreload 6842 140714455117824 /home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py changed, reloading.
+INFO 2023-07-26 18:43:54,626 autoreload 6888 140143787696128 Watching for file changes with StatReloader
+ERROR 2023-07-26 18:43:56,143 LogginMiddleware 6888 140143746717248 /test/  200
+INFO 2023-07-26 18:44:40,142 autoreload 6888 140143787696128 /home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py changed, reloading.
+INFO 2023-07-26 18:44:40,460 autoreload 6993 140368977825792 Watching for file changes with StatReloader
+INFO 2023-07-26 18:45:06,802 autoreload 6993 140368977825792 /home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py changed, reloading.
+INFO 2023-07-26 18:45:07,212 autoreload 7071 140242614243328 Watching for file changes with StatReloader
+ERROR 2023-07-26 18:45:08,552 log 7071 140242573264448 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py", line 18, in __call__
+    logger["info"]("sss")
+TypeError: 'Logger' object is not subscriptable
+INFO 2023-07-26 18:45:25,594 autoreload 7071 140242614243328 /home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py changed, reloading.
+INFO 2023-07-26 18:45:26,006 autoreload 7131 140171471183872 Watching for file changes with StatReloader
+INFO 2023-07-26 18:45:27,229 LogginMiddleware 7131 140171357976128 sss
+INFO 2023-07-26 18:46:53,816 autoreload 7131 140171471183872 /home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py changed, reloading.
+INFO 2023-07-26 18:46:54,149 autoreload 7271 140457173942272 Watching for file changes with StatReloader
+ERROR 2023-07-26 18:46:55,965 log 7271 140457132963392 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py", line 18, in __call__
+    if status in level_status_code["DEBUG"]:
+NameError: name 'level_status_code' is not defined
+INFO 2023-07-26 18:47:12,486 autoreload 7271 140457173942272 /home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py changed, reloading.
+INFO 2023-07-26 18:47:12,852 autoreload 7343 140411570749440 Watching for file changes with StatReloader
+ERROR 2023-07-26 18:47:14,821 log 7343 140411529770560 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py", line 18, in __call__
+    if status in self.level_status_code["DEBUG"]:
+AttributeError: 'LogginMiddleware' object has no attribute 'level_status_code'
+INFO 2023-07-26 18:47:40,250 autoreload 7343 140411570749440 /home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py changed, reloading.
+INFO 2023-07-26 18:47:40,690 autoreload 7408 140133346770944 Watching for file changes with StatReloader
+INFO 2023-07-26 18:47:44,529 LogginMiddleware 7408 140133305792064 /test/  200
+INFO 2023-07-26 18:48:17,203 autoreload 7408 140133346770944 /home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py changed, reloading.
+INFO 2023-07-26 18:48:17,603 autoreload 7504 139831977238528 Watching for file changes with StatReloader
+INFO 2023-07-26 18:48:18,817 LogginMiddleware 7504 139831936259648 /test/  200  Ok
+INFO 2023-07-26 18:51:47,143 autoreload 7504 139831977238528 /home/nelson/projects/dProjects/backends/reportes/reportes/config/__init__.py changed, reloading.
+INFO 2023-07-26 18:51:47,426 autoreload 7643 140235537948672 Watching for file changes with StatReloader
+INFO 2023-07-26 18:51:49,361 LogginMiddleware 7643 140235496969792 /test/  200  Ok
+INFO 2023-07-26 18:52:16,120 LogginMiddleware 7643 140235496969792 /test/  200  Ok
+INFO 2023-07-26 18:52:23,857 autoreload 7643 140235537948672 /home/nelson/projects/dProjects/backends/reportes/reportes/config/urls.py changed, reloading.
+INFO 2023-07-26 18:52:24,190 autoreload 7732 140604357091328 Watching for file changes with StatReloader
+ERROR 2023-07-26 18:52:25,615 LogginMiddleware 7732 140604316112448 /test/  500  Important
+ERROR 2023-07-26 18:52:25,616 log 7732 140604316112448 Internal Server Error: /test/
+ERROR 2023-07-26 19:03:15,515 LogginMiddleware 7732 140604316112448 /test/  500  Important
+ERROR 2023-07-26 19:03:15,516 log 7732 140604316112448 Internal Server Error: /test/
+ERROR 2023-07-26 19:07:29,498 LogginMiddleware 7732 140604316112448 /test/  500  Important
+ERROR 2023-07-26 19:07:29,499 log 7732 140604316112448 Internal Server Error: /test/
+INFO 2023-07-26 19:14:32,200 autoreload 7732 140604357091328 /home/nelson/projects/dProjects/backends/reportes/reportes/config/settings/base.py changed, reloading.
+INFO 2023-07-26 19:14:32,506 autoreload 8182 140382579245056 Watching for file changes with StatReloader
+INFO 2023-07-26 19:19:03,064 autoreload 8182 140382579245056 /home/nelson/projects/dProjects/backends/reportes/reportes/config/settings/base.py changed, reloading.
+INFO 2023-07-26 19:19:42,924 autoreload 8381 140485412499456 Watching for file changes with StatReloader
+INFO 2023-07-26 19:21:34,679 autoreload 8381 140485412499456 /home/nelson/projects/dProjects/backends/reportes/reportes/config/settings/base.py changed, reloading.
+INFO 2023-07-26 19:21:35,128 autoreload 8440 140700943998976 Watching for file changes with StatReloader
+INFO 2023-07-26 19:22:30,568 autoreload 8440 140700943998976 /home/nelson/projects/dProjects/backends/reportes/reportes/config/settings/base.py changed, reloading.
+INFO 2023-07-26 19:22:30,911 autoreload 8493 140194607067136 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:22:50,018 LogginMiddleware 8493 140194566088256 /test/  500  Important
+ERROR 2023-07-26 19:22:50,019 log 8493 140194566088256 Internal Server Error: /test/
+INFO 2023-07-26 19:23:53,574 autoreload 8493 140194607067136 /home/nelson/projects/dProjects/backends/reportes/reportes/config/urls.py changed, reloading.
+INFO 2023-07-26 19:23:53,945 autoreload 8621 140207284965376 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:23:57,100 log 8621 140207243986496 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/urls.py", line 24, in test
+    raise Exception("mesa")
+Exception: mesa
+ERROR 2023-07-26 19:23:57,100 LogginMiddleware 8621 140207243986496 /test/  500  Important
+INFO 2023-07-26 19:25:54,879 autoreload 8621 140207284965376 /home/nelson/projects/dProjects/backends/reportes/reportes/config/helpers/EmailHandlers.py changed, reloading.
+INFO 2023-07-26 19:25:55,255 autoreload 8686 140497280319488 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:25:59,766 log 8686 140497171510848 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/urls.py", line 24, in test
+    raise Exception("mesa")
+Exception: mesa
+ERROR 2023-07-26 19:25:59,767 LogginMiddleware 8686 140497171510848 /test/  500  Important
+INFO 2023-07-26 19:26:49,821 autoreload 8686 140497280319488 /home/nelson/projects/dProjects/backends/reportes/reportes/config/urls.py changed, reloading.
+INFO 2023-07-26 19:26:50,196 autoreload 8761 140245687410688 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:26:56,373 LogginMiddleware 8761 140245646431808 /test/  500  Important
+ERROR 2023-07-26 19:26:56,374 log 8761 140245646431808 Internal Server Error: /test/
+INFO 2023-07-26 19:28:06,806 autoreload 8856 140411593633792 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:28:16,113 LogginMiddleware 8856 140411552654912 /test/  500  Important
+ERROR 2023-07-26 19:28:16,114 log 8856 140411552654912 Internal Server Error: /test/
+INFO 2023-07-26 19:30:36,823 autoreload 8856 140411593633792 /home/nelson/projects/dProjects/backends/reportes/reportes/config/helpers/EmailHandlers.py changed, reloading.
+INFO 2023-07-26 19:30:47,254 autoreload 9042 140065127309312 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:31:03,275 LogginMiddleware 9042 140065086330432 /test/  500  Important
+ERROR 2023-07-26 19:31:03,276 log 9042 140065086330432 Internal Server Error: /test/
+INFO 2023-07-26 19:31:31,735 autoreload 9042 140065127309312 /home/nelson/projects/dProjects/backends/reportes/reportes/config/settings/base.py changed, reloading.
+INFO 2023-07-26 19:31:32,069 autoreload 9152 139883241963520 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:31:35,361 LogginMiddleware 9152 139883200984640 /test/  500  Important
+ERROR 2023-07-26 19:31:35,361 log 9152 139883200984640 Internal Server Error: /test/
+INFO 2023-07-26 19:32:14,544 autoreload 9152 139883241963520 /home/nelson/projects/dProjects/backends/reportes/reportes/config/settings/base.py changed, reloading.
+INFO 2023-07-26 19:32:14,861 autoreload 9220 140389006811136 Watching for file changes with StatReloader
+INFO 2023-07-26 19:32:17,115 autoreload 9248 140682530926592 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:32:20,990 LogginMiddleware 9248 140682489947712 /test/  500  Important
+ERROR 2023-07-26 19:32:20,991 log 9248 140682489947712 Internal Server Error: /test/
+INFO 2023-07-26 19:33:05,640 autoreload 9248 140682530926592 /home/nelson/projects/dProjects/backends/reportes/reportes/config/settings/base.py changed, reloading.
+INFO 2023-07-26 19:33:05,996 autoreload 9340 140299823820800 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:33:09,286 LogginMiddleware 9340 140299782841920 /test/  500  Important
+ERROR 2023-07-26 19:33:09,286 log 9340 140299782841920 Internal Server Error: /test/
+INFO 2023-07-26 19:34:04,565 autoreload 9340 140299823820800 /home/nelson/projects/dProjects/backends/reportes/reportes/config/settings/base.py changed, reloading.
+INFO 2023-07-26 19:34:04,838 autoreload 9419 140192380284928 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:34:08,246 LogginMiddleware 9419 140192339306048 /test/  500  Important
+ERROR 2023-07-26 19:34:08,246 log 9419 140192339306048 Internal Server Error: /test/
+INFO 2023-07-26 19:34:48,283 autoreload 9419 140192380284928 /home/nelson/projects/dProjects/backends/reportes/reportes/config/helpers/EmailHandlers.py changed, reloading.
+INFO 2023-07-26 19:34:48,623 autoreload 9487 139951037861888 Watching for file changes with StatReloader
+INFO 2023-07-26 19:35:08,934 autoreload 9487 139951037861888 /home/nelson/projects/dProjects/backends/reportes/reportes/config/urls.py changed, reloading.
+INFO 2023-07-26 19:35:09,329 autoreload 9569 140603788374016 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:35:11,837 log 9569 140603673278016 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/urls.py", line 25, in test
+    raise Exception("sds")
+Exception: sds
+ERROR 2023-07-26 19:35:11,837 LogginMiddleware 9569 140603673278016 /test/  500  Important
+INFO 2023-07-26 19:35:21,621 autoreload 9569 140603788374016 /home/nelson/projects/dProjects/backends/reportes/reportes/config/urls.py changed, reloading.
+INFO 2023-07-26 19:35:21,954 autoreload 9626 139770078924800 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:35:33,319 LogginMiddleware 9626 139770037945920 /test/  500  Important
+ERROR 2023-07-26 19:35:33,319 log 9626 139770037945920 Internal Server Error: /test/
+INFO 2023-07-26 19:37:10,701 autoreload 10717 140449962319872 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:37:14,950 LogginMiddleware 10717 140449921340992 /test/  500  Important
+ERROR 2023-07-26 19:37:14,951 log 10717 140449921340992 Internal Server Error: /test/
+INFO 2023-07-26 19:37:30,118 autoreload 10717 140449962319872 /home/nelson/projects/dProjects/backends/reportes/reportes/config/settings/base.py changed, reloading.
+INFO 2023-07-26 19:37:30,468 autoreload 10779 140333975093248 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:37:33,691 LogginMiddleware 10779 140333934114368 /test/  500  Important
+ERROR 2023-07-26 19:37:33,691 log 10779 140333934114368 Internal Server Error: /test/
+INFO 2023-07-26 19:43:58,130 autoreload 10779 140333975093248 /home/nelson/projects/dProjects/backends/reportes/reportes/config/helpers/EmailHandlers.py changed, reloading.
+INFO 2023-07-26 19:43:58,470 autoreload 10923 140713005744128 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:44:09,554 LogginMiddleware 10923 140712964765248 /test/  500  Important
+ERROR 2023-07-26 19:44:09,554 log 10923 140712964765248 Internal Server Error: /test/
+INFO 2023-07-26 19:44:58,096 autoreload 10923 140713005744128 /home/nelson/projects/dProjects/backends/reportes/reportes/config/helpers/EmailHandlers.py changed, reloading.
+INFO 2023-07-26 19:44:58,574 autoreload 11040 140245895434240 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:45:03,744 LogginMiddleware 11040 140245781706304 /test/  500  Important
+ERROR 2023-07-26 19:45:03,744 log 11040 140245781706304 Internal Server Error: /test/
+INFO 2023-07-26 19:45:10,927 autoreload 11040 140245895434240 /home/nelson/projects/dProjects/backends/reportes/reportes/config/urls.py changed, reloading.
+INFO 2023-07-26 19:45:11,303 autoreload 11111 139972779864064 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:45:12,720 log 11111 139972738885184 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/urls.py", line 25, in test
+    raise Exception("sds")
+Exception: sds
+ERROR 2023-07-26 19:45:12,720 LogginMiddleware 11111 139972738885184 /test/  500  Important
+INFO 2023-07-26 19:45:51,800 autoreload 11111 139972779864064 /home/nelson/projects/dProjects/backends/reportes/reportes/config/__init__.py changed, reloading.
+INFO 2023-07-26 19:45:52,169 autoreload 11144 139905318518784 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:45:53,651 log 11144 139905204221504 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/urls.py", line 25, in test
+    raise Exception("sds")
+Exception: sds
+ERROR 2023-07-26 19:45:53,651 LogginMiddleware 11144 139905204221504 /test/  500  Important
+INFO 2023-07-26 19:46:08,543 autoreload 11144 139905318518784 /home/nelson/projects/dProjects/backends/reportes/reportes/config/urls.py changed, reloading.
+INFO 2023-07-26 19:46:08,896 autoreload 11193 140022094770176 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:46:12,946 LogginMiddleware 11193 140022053791296 /test/  500  Important
+ERROR 2023-07-26 19:46:12,948 log 11193 140022053791296 Internal Server Error: /test/
+INFO 2023-07-26 19:46:50,172 autoreload 11245 139822627659776 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:46:53,627 LogginMiddleware 11245 139822586680896 /test/  500  Important
+ERROR 2023-07-26 19:46:53,628 log 11245 139822586680896 Internal Server Error: /test/
+INFO 2023-07-26 19:50:20,672 autoreload 11245 139822627659776 /home/nelson/projects/dProjects/backends/reportes/reportes/config/helpers/EmailHandlers.py changed, reloading.
+INFO 2023-07-26 19:50:21,016 autoreload 11318 140701816610816 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:50:23,994 LogginMiddleware 11318 140701775631936 /test/  500  Important
+ERROR 2023-07-26 19:50:23,994 log 11318 140701775631936 Internal Server Error: /test/
+INFO 2023-07-26 19:51:02,507 autoreload 11318 140701816610816 /home/nelson/projects/dProjects/backends/reportes/reportes/config/helpers/EmailHandlers.py changed, reloading.
+INFO 2023-07-26 19:51:02,880 autoreload 11378 139853053710336 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:51:16,449 LogginMiddleware 11378 139853012731456 /test/  500  Important
+ERROR 2023-07-26 19:51:16,450 log 11378 139853012731456 Internal Server Error: /test/
+INFO 2023-07-26 19:52:19,577 autoreload 11378 139853053710336 /home/nelson/projects/dProjects/backends/reportes/reportes/config/urls.py changed, reloading.
+INFO 2023-07-26 19:52:19,903 autoreload 11483 140538459742208 Watching for file changes with StatReloader
+INFO 2023-07-26 19:52:53,316 autoreload 11483 140538459742208 /home/nelson/projects/dProjects/backends/reportes/reportes/config/helpers/EmailHandlers.py changed, reloading.
+INFO 2023-07-26 19:52:53,651 autoreload 11535 139649932152832 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:53:42,143 LogginMiddleware 11535 139649891173952 /test/  500  Important
+ERROR 2023-07-26 19:53:42,143 log 11535 139649891173952 Internal Server Error: /test/
+INFO 2023-07-26 19:55:00,686 autoreload 11535 139649932152832 /home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py changed, reloading.
+INFO 2023-07-26 19:55:01,011 autoreload 11653 140392716099584 Watching for file changes with StatReloader
+INFO 2023-07-26 19:55:05,256 autoreload 11653 140392716099584 /home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py changed, reloading.
+INFO 2023-07-26 19:55:05,587 autoreload 11683 139825160302592 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:55:07,889 LogginMiddleware 11683 139825119323712 /test/  500  Important
+ERROR 2023-07-26 19:55:07,924 log 11683 139825119323712 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py", line 28, in __call__
+    logger.callHandlers("mail_admins")
+  File "/usr/lib/python3.10/logging/__init__.py", line 1695, in callHandlers
+    if record.levelno >= hdlr.level:
+AttributeError: 'str' object has no attribute 'levelno'
+INFO 2023-07-26 19:56:02,210 autoreload 11683 139825160302592 /home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py changed, reloading.
+INFO 2023-07-26 19:56:02,506 autoreload 11748 140671175925760 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:56:04,943 LogginMiddleware 11748 140671134946880 /test/  500  Important
+ERROR 2023-07-26 19:56:04,943 log 11748 140671134946880 Internal Server Error: /test/
+INFO 2023-07-26 19:56:10,800 autoreload 11748 140671175925760 /home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py changed, reloading.
+INFO 2023-07-26 19:56:11,082 autoreload 11796 140183721185280 Watching for file changes with StatReloader
+INFO 2023-07-26 19:56:35,395 autoreload 11796 140183721185280 /home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py changed, reloading.
+INFO 2023-07-26 19:56:35,701 autoreload 11841 140343774597120 Watching for file changes with StatReloader
+ERROR 2023-07-26 19:56:37,967 LogginMiddleware 11841 140343733618240 /test/  500  Important
+ERROR 2023-07-26 19:56:37,967 LogginMiddleware 11841 140343733618240 sss
+ERROR 2023-07-26 19:56:37,968 log 11841 140343733618240 Internal Server Error: /test/
+INFO 2023-07-26 19:56:51,022 autoreload 11841 140343774597120 /home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py changed, reloading.
+INFO 2023-07-26 19:56:51,345 autoreload 11885 140496135237632 Watching for file changes with StatReloader
+INFO 2023-07-26 19:57:31,783 autoreload 11885 140496135237632 /home/nelson/projects/dProjects/backends/reportes/reportes/config/settings/base.py changed, reloading.
+ERROR 2023-07-26 20:13:24,952 log 13590 140153652790848 Internal Server Error: /test/
+ERROR 2023-07-26 20:13:33,434 log 13590 140153652790848 Internal Server Error: /test/
+ERROR 2023-07-26 20:14:00,229 log 13684 140593250936384 Internal Server Error: /test/
+ERROR 2023-07-26 20:14:31,639 log 13684 140593250936384 Internal Server Error: /test/
+ERROR 2023-07-26 20:14:32,242 log 13684 140593250936384 Internal Server Error: /test/
+ERROR 2023-07-26 20:14:32,426 log 13684 140593250936384 Internal Server Error: /test/
+ERROR 2023-07-26 20:14:32,552 log 13684 140593250936384 Internal Server Error: /test/
+ERROR 2023-07-26 20:14:41,168 log 13775 139710184814144 Internal Server Error: /test/
+ERROR 2023-07-26 20:15:39,467 log 13961 139910365378112 Internal Server Error: /test/
+ERROR 2023-07-26 20:19:15,243 log 14402 140718319584832 Internal Server Error: /test/
+ERROR 2023-07-26 20:20:40,893 log 14478 139674148402752 Internal Server Error: /test/
+ERROR 2023-07-26 20:20:54,951 log 14529 140711003457088 Internal Server Error: /test/
+ERROR 2023-07-26 20:21:01,416 log 14529 140711003457088 Internal Server Error: /test/
+ERROR 2023-07-26 20:28:44,187 log 15646 139937870091840 Internal Server Error: /test/
+ERROR 2023-07-26 20:28:47,562 log 15646 139937870091840 Internal Server Error: /test/
+ERROR 2023-07-26 20:29:05,773 log 15779 140240225084992 Internal Server Error: /test/
+ERROR 2023-07-26 20:31:58,210 log 16327 140520971187776 Internal Server Error: /test/
+ERROR 2023-07-26 20:31:59,923 log 16327 140520971187776 Internal Server Error: /test/
+ERROR 2023-07-26 20:32:00,306 log 16327 140520971187776 Internal Server Error: /test/
+ERROR 2023-07-26 20:32:00,454 log 16327 140520971187776 Internal Server Error: /test/
+ERROR 2023-07-26 20:32:00,589 log 16327 140520971187776 Internal Server Error: /test/
+ERROR 2023-07-26 20:32:00,713 log 16327 140520971187776 Internal Server Error: /test/
+ERROR 2023-07-26 20:34:01,052 log 16745 140183950698048 Internal Server Error: /test/
+ERROR 2023-07-26 20:35:01,061 log 16983 140529878341184 Internal Server Error: /test/
+ERROR 2023-07-26 20:36:10,220 log 17278 139836882564672 Internal Server Error: /test/
+ERROR 2023-07-26 20:36:48,945 log 17515 140025359656512 Internal Server Error: /test/
+ERROR 2023-07-26 20:37:06,386 log 17645 139907217487424 Internal Server Error: /test/
+ERROR 2023-07-26 20:37:31,331 log 17792 140111408129600 Internal Server Error: /test/
+ERROR 2023-07-26 21:06:46,643 log 26413 140154714977856 Internal Server Error: /test/
+ERROR 2023-07-26 21:07:10,760 log 26413 140154714977856 Internal Server Error: /test/
+ERROR 2023-07-26 21:39:00,582 log 35909 140612722521664 Internal Server Error: /test/
+ERROR 2023-07-26 21:39:57,728 log 36233 139877533296192 Internal Server Error: /test/
+WARNING 2023-07-26 21:39:59,853 log 36233 139877533296192 Not Found: /favicon.ico
+ERROR 2023-07-26 21:44:50,510 log 38147 140630032864832 Internal Server Error: /test/
+ERROR 2023-07-26 21:44:52,684 log 38147 140630032864832 Internal Server Error: /test/
+ERROR 2023-07-26 21:45:46,210 log 38896 140160846366272 Internal Server Error: /test/
+ERROR 2023-07-26 21:46:44,817 log 39204 140433477559872 Internal Server Error: /test/
+ERROR 2023-07-26 21:50:27,303 log 40389 139897986467392 Internal Server Error: /test/
+ERROR 2023-07-26 21:53:04,868 log 41585 140610174453312 Internal Server Error: /test/
+ERROR 2023-07-26 21:54:52,772 log 41982 140565873268288 Internal Server Error: /test/
+ERROR 2023-07-26 21:56:16,190 log 42454 139691654932032 Internal Server Error: /test/
+ERROR 2023-07-26 22:00:54,547 log 43645 140521293174336 Internal Server Error: /test/
+WARNING 2023-07-26 22:27:28,009 log 48580 139885138671168 Not Found: /
+WARNING 2023-07-26 22:27:28,334 log 48580 139885138671168 Not Found: /favicon.ico
+ERROR 2023-07-26 22:27:33,614 log 48580 139885138671168 Internal Server Error: /test/
+ERROR 2023-07-26 22:31:47,586 log 50458 140477133846080 Internal Server Error: /test/
+ERROR 2023-07-26 22:37:18,412 log 52182 139842408113728 Internal Server Error: /test/
+ERROR 2023-07-26 22:37:26,445 log 52182 139842408113728 Internal Server Error: /webhook/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/urls.py", line 32, in web
+    verify_token = VERIFY_TOKEN_ENV
+NameError: name 'VERIFY_TOKEN_ENV' is not defined
+ERROR 2023-07-26 22:39:04,245 log 52466 140315832251968 Internal Server Error: /test/
+ERROR 2023-07-26 22:39:31,735 log 52466 140315832251968 Internal Server Error: /test/
+ERROR 2023-07-26 22:40:32,983 log 53050 140113359492672 Internal Server Error: /test/
+ERROR 2023-07-26 22:41:38,414 log 53774 140547145213504 Internal Server Error: /test/
+ERROR 2023-07-26 22:41:59,119 log 53774 140547145213504 Internal Server Error: /test/
+ERROR 2023-07-26 22:42:25,209 log 54030 140077093279296 Internal Server Error: /test/
+ERROR 2023-07-26 22:43:14,360 log 54313 140026637620800 Internal Server Error: /test/
+ERROR 2023-07-26 22:43:45,614 log 54443 139748970112576 Internal Server Error: /test/
+ERROR 2023-07-26 22:44:00,720 log 54571 139968245728832 Internal Server Error: /test/
+ERROR 2023-07-26 22:47:54,923 log 54571 139968001332800 Internal Server Error: /test/
+ERROR 2023-07-26 22:48:44,376 log 55536 140480796948032 Internal Server Error: /test/
+ERROR 2023-07-26 22:48:48,459 log 55536 140480796948032 Internal Server Error: /test/
