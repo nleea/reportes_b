@@ -27,6 +27,19 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 
 ROOT_URLCONF = "config.urls"
 
+MIDDLEWARE = [
+    'django.middleware.gzip.GZipMiddleware',
+    "django.middleware.security.SecurityMiddleware",
+    "django.contrib.sessions.middleware.SessionMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
+    "django.middleware.common.CommonMiddleware",
+    "django.middleware.csrf.CsrfViewMiddleware",
+    "django.contrib.auth.middleware.AuthenticationMiddleware",
+    "django.contrib.messages.middleware.MessageMiddleware",
+    "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "config.middleware.LogginMiddleware.LogginMiddleware",
+]
+
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
@@ -130,15 +143,12 @@ LOGGING = {
     },
 }
 
-# ADMINS = [
-#     ('Nelson', 'egresados398@gmail.com'),
-# ]
 
-CELERY_BROKER_URL = 'redis://127.0.0.1:6379'
-CELERY_ACCEPT_CONTENT = ['application/json']
-CELERY_RESULT_SERIALIZER = 'json'
-CELERY_TASK_SERIALIZER = 'json'
-CELERY_TIMEZONE = 'America/Bogota'
+
+broker_url = 'redis://127.0.0.1:6379'
+accept_content = ['application/json']
+result_serializer = 'json'
+task_serializer = 'json'
 
 
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"

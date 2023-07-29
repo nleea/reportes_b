@@ -300,3 +300,426 @@ ERROR 2023-07-26 22:44:00,720 log 54571 139968245728832 Internal Server Error: /
 ERROR 2023-07-26 22:47:54,923 log 54571 139968001332800 Internal Server Error: /test/
 ERROR 2023-07-26 22:48:44,376 log 55536 140480796948032 Internal Server Error: /test/
 ERROR 2023-07-26 22:48:48,459 log 55536 140480796948032 Internal Server Error: /test/
+ERROR 2023-07-26 23:34:34,935 log 1727 140478412445248 Internal Server Error: /test/
+WARNING 2023-07-26 23:34:37,137 log 1727 140478412445248 Not Found: /favicon.ico
+ERROR 2023-07-26 23:36:40,730 log 1727 140478412445248 Internal Server Error: /test/
+ERROR 2023-07-26 23:37:32,505 log 2789 139767439951424 Internal Server Error: /test/
+ERROR 2023-07-26 23:39:16,777 log 2976 139986981484096 Internal Server Error: /test/
+ERROR 2023-07-26 23:39:32,334 log 2976 139986981484096 Internal Server Error: /test/
+ERROR 2023-07-26 23:40:03,948 log 3171 140407281231424 Internal Server Error: /test/
+ERROR 2023-07-26 23:44:51,636 log 3464 139856146191936 Internal Server Error: /test/
+ERROR 2023-07-26 23:46:30,342 log 3730 140409653233216 Internal Server Error: /test/
+ERROR 2023-07-26 23:51:35,868 log 4030 140063340803648 Internal Server Error: /test/
+ERROR 2023-07-26 23:54:10,810 log 4405 140616655840832 Internal Server Error: /test/
+ERROR 2023-07-26 23:55:49,735 log 4699 140409567659584 Internal Server Error: /test/
+ERROR 2023-07-26 23:58:27,757 log 4908 140209219044928 Internal Server Error: /test/
+ERROR 2023-07-26 23:58:50,981 log 4908 140209219044928 Internal Server Error: /test/
+ERROR 2023-07-26 23:58:52,150 log 4908 140209219044928 Internal Server Error: /test/
+ERROR 2023-07-26 23:58:52,301 log 4908 140209219044928 Internal Server Error: /test/
+ERROR 2023-07-26 23:58:52,410 log 4908 140209219044928 Internal Server Error: /test/
+ERROR 2023-07-26 23:58:52,525 log 4908 140209219044928 Internal Server Error: /test/
+ERROR 2023-07-26 23:58:52,644 log 4908 140209219044928 Internal Server Error: /test/
+ERROR 2023-07-26 23:58:52,751 log 4908 140209219044928 Internal Server Error: /test/
+ERROR 2023-07-26 23:58:52,870 log 4908 140209219044928 Internal Server Error: /test/
+ERROR 2023-07-26 23:59:05,747 log 4908 140209219044928 Internal Server Error: /test/
+ERROR 2023-07-27 00:00:34,814 log 5333 139895908152896 Internal Server Error: /test/
+ERROR 2023-07-27 00:01:35,133 log 5333 139895908152896 Internal Server Error: /test/
+ERROR 2023-07-27 00:01:50,845 log 5568 139923135026752 Internal Server Error: /test/
+ERROR 2023-07-27 00:02:06,606 log 5691 139994039494208 Internal Server Error: /test/
+ERROR 2023-07-27 00:03:02,641 log 5761 140159613924928 Internal Server Error: /test/
+ERROR 2023-07-27 00:05:17,327 log 6067 140600921814592 Internal Server Error: /test/
+ERROR 2023-07-27 00:06:41,141 log 6223 140088787359296 Internal Server Error: /test/
+ERROR 2023-07-27 00:07:25,075 log 6446 139789387048512 Internal Server Error: /test/
+ERROR 2023-07-27 00:09:02,878 log 6650 140634198828608 Internal Server Error: /test/
+ERROR 2023-07-27 00:10:03,407 log 6914 139666576016960 Internal Server Error: /test/
+WARNING 2023-07-27 00:14:56,332 log 7758 140553644070464 Not Found: /test/
+WARNING 2023-07-27 00:15:32,447 log 7848 140248517477952 Not Found: /test/
+WARNING 2023-07-27 00:15:34,730 log 7848 140248517477952 Not Found: /
+WARNING 2023-07-27 00:15:36,528 log 7848 140248517477952 Not Found: /
+WARNING 2023-07-27 00:15:51,416 log 7942 140340354266688 Not Found: /
+WARNING 2023-07-27 00:15:55,583 log 7942 140340354266688 Not Found: /test/
+ERROR 2023-07-27 00:16:09,264 log 8064 140712781801024 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/apps/auth_user/views.py", line 6, in test
+    resp = HttpResponse("Error")
+NameError: name 'HttpResponse' is not defined
+ERROR 2023-07-27 00:16:48,586 log 8210 140679211812416 Internal Server Error: /test/
+ERROR 2023-07-27 00:16:56,936 log 8210 140679211812416 Internal Server Error: /test/
+ERROR 2023-07-27 00:18:02,117 log 8532 140715930564160 Internal Server Error: /test/
+ERROR 2023-07-27 00:18:08,323 log 8532 140715930564160 Internal Server Error: /test/
+ERROR 2023-07-27 00:18:35,219 log 8653 140491341575744 Internal Server Error: /test/
+ERROR 2023-07-27 00:19:48,619 log 8776 140436447577664 Internal Server Error: /test/
+ERROR 2023-07-27 00:25:54,198 log 10145 140494863656512 Internal Server Error: /test/
+ERROR 2023-07-27 00:30:17,948 log 10759 140513267381824 Internal Server Error: /test/
+ERROR 2023-07-27 00:30:36,046 log 10759 140513267381824 Internal Server Error: /test/
+ERROR 2023-07-27 00:31:15,567 log 11097 139765917988416 Internal Server Error: /test/
+ERROR 2023-07-27 00:31:45,123 log 11097 139765917988416 Internal Server Error: /test/
+ERROR 2023-07-27 00:31:45,253 log 11097 139765917988416 Internal Server Error: /test/
+ERROR 2023-07-27 00:31:45,377 log 11097 139765917988416 Internal Server Error: /test/
+ERROR 2023-07-27 00:31:45,480 log 11097 139765917988416 Internal Server Error: /test/
+ERROR 2023-07-27 00:31:45,597 log 11097 139765917988416 Internal Server Error: /test/
+ERROR 2023-07-27 00:31:45,700 log 11097 139765917988416 Internal Server Error: /test/
+ERROR 2023-07-27 00:31:45,817 log 11097 139765917988416 Internal Server Error: /test/
+ERROR 2023-07-27 00:31:45,925 log 11097 139765917988416 Internal Server Error: /test/
+ERROR 2023-07-27 00:32:21,454 log 11444 140019707389504 Internal Server Error: /test/
+ERROR 2023-07-27 00:32:57,782 log 11560 139888538351168 Internal Server Error: /test/
+ERROR 2023-07-27 00:32:57,905 log 11560 139888538351168 Internal Server Error: /test/
+ERROR 2023-07-27 00:32:58,027 log 11560 139888538351168 Internal Server Error: /test/
+ERROR 2023-07-27 00:32:58,137 log 11560 139888538351168 Internal Server Error: /test/
+ERROR 2023-07-27 00:33:30,938 log 11700 139767959967296 Internal Server Error: /test/
+ERROR 2023-07-27 00:33:59,841 log 11877 139786211808832 Internal Server Error: /test/
+ERROR 2023-07-27 00:57:49,236 log 15051 140389830915648 Internal Server Error: /test/
+ERROR 2023-07-27 01:00:07,256 log 15219 139928546657856 Internal Server Error: /test/
+ERROR 2023-07-27 01:01:22,453 log 15437 140420156495424 Internal Server Error: /test/
+ERROR 2023-07-27 01:02:55,683 log 15552 140129316128320 Internal Server Error: /test/
+ERROR 2023-07-27 01:03:23,805 log 15753 139646414886464 Internal Server Error: /test/
+ERROR 2023-07-27 01:03:38,576 log 15831 140244198065728 Internal Server Error: /test/
+ERROR 2023-07-27 01:04:01,957 log 15918 140064065406528 Internal Server Error: /test/
+ERROR 2023-07-27 01:04:20,524 log 15918 140064065406528 Internal Server Error: /test/
+ERROR 2023-07-27 01:05:46,108 log 16160 140136930080320 Internal Server Error: /test/
+ERROR 2023-07-27 01:09:20,021 log 16620 140492381410880 Internal Server Error: /test/
+ERROR 2023-07-27 01:10:19,378 log 16620 140492381410880 Internal Server Error: /test/
+ERROR 2023-07-29 14:58:58,140 log 1674 139639735858752 Internal Server Error: /test/
+WARNING 2023-07-29 14:59:04,694 log 1674 139639735858752 Not Found: /favicon.ico
+ERROR 2023-07-29 15:01:35,251 log 2501 139794932848192 Internal Server Error: /test/
+ERROR 2023-07-29 15:03:45,438 log 2713 139856008984128 Internal Server Error: /test/
+ERROR 2023-07-29 15:07:03,652 log 3068 140108707739200 Internal Server Error: /test/
+ERROR 2023-07-29 15:10:40,965 log 3689 140419494540864 Internal Server Error: /test/
+ERROR 2023-07-29 15:11:17,406 log 3884 139802192115264 Internal Server Error: /test/
+ERROR 2023-07-29 15:11:57,448 log 4066 139887683450432 Internal Server Error: /test/
+ERROR 2023-07-29 15:23:46,215 log 4949 139802701358656 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py", line 16, in __call__
+    status = response.status_code
+AttributeError: 'NoneType' object has no attribute 'status_code'
+ERROR 2023-07-29 15:26:44,138 log 5118 140510324848192 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py", line 16, in __call__
+    status = response.status_code
+AttributeError: 'NoneType' object has no attribute 'status_code'
+ERROR 2023-07-29 15:27:09,555 log 5225 140594836850240 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py", line 16, in __call__
+    status = response.status_code
+AttributeError: 'NoneType' object has no attribute 'status_code'
+ERROR 2023-07-29 15:27:24,363 log 5290 140277497423424 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py", line 16, in __call__
+    status = response.status_code
+AttributeError: 'NoneType' object has no attribute 'status_code'
+ERROR 2023-07-29 15:28:14,937 log 5366 140128224622144 Internal Server Error: /test/
+ERROR 2023-07-29 15:28:38,917 log 5440 140218717058624 Internal Server Error: /test/
+ERROR 2023-07-29 15:29:06,579 log 5541 139770449622592 Internal Server Error: /test/
+ERROR 2023-07-29 15:29:14,227 log 5609 140325798958656 Internal Server Error: /test/
+ERROR 2023-07-29 15:30:07,091 log 5705 139652364310080 Internal Server Error: /test/
+ERROR 2023-07-29 15:30:22,243 log 5784 140238925796928 Internal Server Error: /test/
+ERROR 2023-07-29 15:30:48,758 log 5910 139871448462912 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/apps/auth_user/views.py", line 11, in test
+    raise Exception("ssss")
+Exception: ssss
+ERROR 2023-07-29 15:31:45,491 log 5910 139871448462912 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/apps/auth_user/views.py", line 11, in test
+    raise Exception("ssss")
+Exception: ssss
+ERROR 2023-07-29 15:33:54,446 log 5910 139871448462912 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/apps/auth_user/views.py", line 11, in test
+    raise Exception("ssss")
+Exception: ssss
+ERROR 2023-07-29 15:34:31,193 log 6127 139684952929856 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/apps/auth_user/views.py", line 11, in test
+    raise Exception("ssss")
+Exception: ssss
+ERROR 2023-07-29 15:37:24,968 log 6357 140428711495232 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/apps/auth_user/views.py", line 11, in test
+    raise Exception("ssss")
+Exception: ssss
+ERROR 2023-07-29 15:39:16,373 log 6472 139880953271872 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/apps/auth_user/views.py", line 11, in test
+    raise Exception("ssss")
+Exception: ssss
+ERROR 2023-07-29 15:40:31,125 log 6545 140663505839680 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/apps/auth_user/views.py", line 11, in test
+    raise Exception("ssss")
+Exception: ssss
+ERROR 2023-07-29 15:49:02,994 log 6807 139960208139840 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/apps/auth_user/views.py", line 11, in test
+    raise Exception("ssss")
+Exception: ssss
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+TypeError: ErrorMiddleware.process_exception() takes 2 positional arguments but 3 were given
+ERROR 2023-07-29 15:50:24,028 log 6882 140020831745600 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/apps/auth_user/views.py", line 11, in test
+    raise Exception("ssss")
+Exception: ssss
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+TypeError: ErrorMiddleware.process_exception() takes 2 positional arguments but 3 were given
+ERROR 2023-07-29 15:50:35,637 log 6957 140575281993280 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/apps/auth_user/views.py", line 11, in test
+    raise Exception("ssss")
+Exception: ssss
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+TypeError: ErrorMiddleware.process_exception() takes 2 positional arguments but 3 were given
+ERROR 2023-07-29 15:52:21,863 log 7097 139887466341952 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/apps/auth_user/views.py", line 11, in test
+    raise Exception("ssss")
+Exception: ssss
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+TypeError: ErrorMiddleware.process_exception() takes 2 positional arguments but 3 were given
+ERROR 2023-07-29 15:57:34,182 log 7999 140110501611072 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/ErrorHandlerMiddleware.py", line 17, in __call__
+    return response["Errors"]
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/http/response.py", line 199, in __getitem__
+    return self.headers[header]
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/utils/datastructures.py", line 309, in __getitem__
+    return self._store[key.lower()][1]
+KeyError: 'errors'
+ERROR 2023-07-29 15:59:09,749 log 8244 139624572663360 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/ErrorHandlerMiddleware.py", line 17, in __call__
+    print(decode["Errors"])
+TypeError: string indices must be integers
+ERROR 2023-07-29 16:02:15,132 log 9011 140614778013248 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/apps/auth_user/views.py", line 11, in test
+    raise Exception()
+Exception
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/ErrorHandlerMiddleware.py", line 25, in process_exception
+    return HttpResponse(json.dumps({"Errors": exception}))
+  File "/usr/lib/python3.10/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Exception is not JSON serializable
+ERROR 2023-07-29 16:02:52,769 log 9192 140604426241600 Internal Server Error: /test/
+ERROR 2023-07-29 16:03:02,113 log 9244 140437067060800 Internal Server Error: /test/
+ERROR 2023-07-29 16:04:02,091 log 9450 140476109006400 Internal Server Error: /test/
+ERROR 2023-07-29 16:04:10,597 log 9514 140204976559680 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/apps/auth_user/views.py", line 12, in test
+    raise Exception("sds")
+Exception: sds
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/ErrorHandlerMiddleware.py", line 24, in process_exception
+    return HttpResponse(json.dumps({"Errors": exception}))
+  File "/usr/lib/python3.10/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Exception is not JSON serializable
+ERROR 2023-07-29 16:04:22,634 log 9583 139631198729792 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/apps/auth_user/views.py", line 12, in test
+    raise Exception("sds")
+Exception: sds
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/ErrorHandlerMiddleware.py", line 24, in process_exception
+    return HttpResponse(json.dumps({"Errors": exception}))
+  File "/usr/lib/python3.10/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Exception is not JSON serializable
+ERROR 2023-07-29 16:05:05,505 log 9710 139863514822208 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/apps/auth_user/views.py", line 12, in test
+    raise Exception("sds")
+Exception: sds
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/ErrorHandlerMiddleware.py", line 24, in process_exception
+    return HttpResponse(json.dumps({"Errors": exception}))
+  File "/usr/lib/python3.10/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Exception is not JSON serializable
+ERROR 2023-07-29 16:05:11,903 log 9751 139914263918144 Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/apps/auth_user/views.py", line 12, in test
+    raise Exception("sds")
+Exception: sds
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/ErrorHandlerMiddleware.py", line 24, in process_exception
+    return HttpResponse(json.dumps({"Errors": exception}))
+  File "/usr/lib/python3.10/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Exception is not JSON serializable
+ERROR 2023-07-29 16:12:22,363 log 10661 139886331446848 Internal Server Error: /test/
+ERROR 2023-07-29 16:13:19,747 log 10842 139793744909888 Internal Server Error: /test/

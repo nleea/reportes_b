@@ -15,17 +15,13 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path,include
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 import os
 import json
 
-def test(request):
-    resp = HttpResponse("Error")
-    resp.status_code = 500
-    return resp
-    # raise Exception("sds")
+
 
 
 @csrf_exempt
@@ -42,6 +38,6 @@ def web(request):
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("test/", test),
-    path("webhook/", web),
+    path("test/", include("apps.auth_user.urls")),
+    # path("webhook/", web),
 ]
