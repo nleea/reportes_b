@@ -723,3 +723,51 @@ Traceback (most recent call last):
 TypeError: Object of type Exception is not JSON serializable
 ERROR 2023-07-29 16:12:22,363 log 10661 139886331446848 Internal Server Error: /test/
 ERROR 2023-07-29 16:13:19,747 log 10842 139793744909888 Internal Server Error: /test/
+ERROR 2023-07-30 15:04:33,120 log 5357 140327076529728 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/MetricMiddleware.py", line 23, in __call__
+    response = get_response(request)
+NameError: name 'get_response' is not defined
+ERROR 2023-07-30 15:04:33,390 log 5357 140327076529728 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/MetricMiddleware.py", line 23, in __call__
+    response = get_response(request)
+NameError: name 'get_response' is not defined
+ERROR 2023-07-30 15:06:08,769 log 5482 140315861403200 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/MetricMiddleware.py", line 23, in __call__
+    response = get_response(request)
+NameError: name 'get_response' is not defined
+ERROR 2023-07-30 15:06:08,918 log 5482 140315861403200 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/MetricMiddleware.py", line 23, in __call__
+    response = get_response(request)
+NameError: name 'get_response' is not defined
+ERROR 2023-07-30 15:06:27,116 log 5590 139791382738496 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py", line 16, in __call__
+    status = response.status_code
+AttributeError: 'NoneType' object has no attribute 'status_code'
+ERROR 2023-07-30 15:06:27,275 log 5590 139791382738496 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/nelson/.local/share/virtualenvs/reportes-UIWeeou_/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/LogginMiddleware.py", line 16, in __call__
+    status = response.status_code
+AttributeError: 'NoneType' object has no attribute 'status_code'
+WARNING 2023-07-30 15:07:00,459 log 5668 140027812116032 Not Found: /
+WARNING 2023-07-30 15:07:00,527 log 5668 140027812116032 Not Found: /favicon.ico
+WARNING 2023-07-30 15:07:10,146 log 5668 140027812116032 Not Found: /
+WARNING 2023-07-30 15:07:30,250 log 5790 139727921313344 Not Found: /
+WARNING 2023-07-30 15:07:39,340 log 5790 139727921313344 Not Found: /
+WARNING 2023-07-30 15:08:04,317 log 5917 140301301823040 Not Found: /

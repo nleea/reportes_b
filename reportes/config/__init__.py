@@ -8,8 +8,10 @@ try:
     if bool(os.environ.get("DEBUG")) == True:
         from .settings.dev import *
         os.environ.setdefault("DJANGO_LOG_LEVEL","ERROR")
+        MIDDLEWARE.append("config.middleware.MetricMiddleware.MetricMiddleware")
     else:
         from .settings.prod import *
+        INSTALLED_APPS.append("compressor")
 
     MIDDLEWARE.append("config.middleware.ErrorHandlerMiddleware.ErrorMiddleware")
     INSTALLED_APPS.append("corsheaders")

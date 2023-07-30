@@ -1,0 +1,6 @@
+2023-07-30 15:07:39,340:WARNING:django.request:Not Found: /
+2023-07-30 15:07:58,740:INFO:django.utils.autoreload:/home/nelson/projects/dProjects/backends/reportes/reportes/config/middleware/MetricMiddleware.py changed, reloading.
+2023-07-30 15:08:04,316:INFO:debug:Total time: 0.01s
+2023-07-30 15:08:04,317:WARNING:django.request:Not Found: /
+2023-07-30 15:11:14,840:INFO:django.utils.autoreload:/home/nelson/projects/dProjects/backends/reportes/reportes/apps/auth_user/models.py changed, reloading.
+2023-07-30 15:11:29,492:INFO:django.utils.autoreload:/home/nelson/projects/dProjects/backends/reportes/reportes/apps/auth_user/models.py changed, reloading.
